@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name HASI-MD",
-    "stop": "pm2 stop HASI-MD",
-    "restart": "pm2 restart HASI-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name UDMODZ",
+    "stop": "pm2 stop UDMODZ",
+    "restart": "pm2 restart UDMODZ"
   },
   "keywords": [],
   "author": "",
