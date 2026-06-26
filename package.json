@@ -1,18 +1,18 @@
 {
   "name": "HASI-MD",
   "version": "1.0.0",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name UDMODZ",
-    "stop": "pm2 stop UDMODZ",
-    "restart": "pm2 restart UDMODZ"
+    "start": "pm2 start index.js --deep-monitoring --attach --name nuiisweety",
+    "stop": "pm2 stop nuiisweety",
+    "restart": "pm2 restart nuiisweety"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "baileys-pro" : "npm:amiudmodz",
+   "whiskeysockets/baileys": "@nuiisweety/baileys",
     "axios": "latest",
     "megajs": "latest",
     "pm2": "latest",
